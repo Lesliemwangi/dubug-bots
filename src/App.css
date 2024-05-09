@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f411; 
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.routes-container {
+  padding: 20px;
+}
+
+.button {
+  background-color: #51accb;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.button:hover {
+  background-color: #7c6acc;
+}
+
+
+
+.bot-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 340px;
+  height: 530px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.bot-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bot-card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.bot-card .content {
+  padding: 20px 0;
+  color: black;
+}
+
+.bot-card .header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.bot-card .meta {
+  color: #999;
+  font-size: 14px;
+  color: #000;
+}
+
+.bot-card .description {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #000;
+}
+
+.bot-army {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: inline;
+  align-items: center;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  margin-top: 20px;
+}
+
+.bot-card .meta {
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+.enlisted-bot {
+  background-color: #8cac1a;
+  border-radius: 8px;
+  padding: 0px;
+  margin: 10px;
+  width: 100%;
+}
+
+.enlisted-bot-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.enlisted-bot img {
+  width: 150px;
+  height: 150px; 
+}
+
+.enlisted-bot-button {
+  background-color: #51accb;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.enlisted-bot-button :hover {
+  background-color: #7c6acc;
+}
+
+
+
+.sort-bar {
+  margin-bottom: 20px;
+}
+
+.sort-bar button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.sort-bar button:hover {
+  background-color: #0056b3;
+}
